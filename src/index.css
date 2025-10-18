@@ -446,7 +446,6 @@ FEATURES
 }
 
 .book__ratings {
-  margin-bottom: 8px;
   color: #fabf2a;
 }
 
@@ -642,7 +641,7 @@ select {
 
 .book__price {
   font-size: 16px;
-  margin: 8px 0 24px 0;
+  margin-top: 8px;
 }
 
 .link__breadcrumbs {
