@@ -369,11 +369,12 @@ FEATURES
 .books {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -24px;
+  margin: 0;
+  justify-content: space-around;
 }
 
 .book {
-  width: 25%;
+  width: 100%;
   padding: 24px;
   transition: all 300ms ease;
 }
