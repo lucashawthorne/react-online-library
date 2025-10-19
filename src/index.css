@@ -794,7 +794,7 @@ select {
   }
 
   .book {
-    width: 50%;
+    width: 100%;
   }
 
   .book__selected {
