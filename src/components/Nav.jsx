@@ -15,7 +15,7 @@ const Nav = ({ numberOfItems }) => {
   return (
     <nav>
       <div className="nav__container">
-        <Link to="/">
+        <Link to="/react-online-library/">
           <img src={LibraryLogo} alt="" className="logo" />
         </Link>
         <ul className="nav__links">
