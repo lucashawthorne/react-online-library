@@ -3,11 +3,9 @@ import Book from "./ui/Book";
 import { books } from "../data";
 
 const Featured = () => {
-  console.log(books);
-  console.log();
   return (
     <div>
-      <section id="features">
+      <section id="featured">
         <div className="container">
           <div className="row">
             <h2 className="section__title">
