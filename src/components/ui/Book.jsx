@@ -22,14 +22,14 @@ const Book = ({ book }) => {
       <div className="book">
         {img ? (
           <>
-            <Link to={`/books/${book.id}`}>
+            <Link to={`/react-online-library/books/${book.id}`}>
               <figure className="book__img--wrapper">
                 <img src={img.src} alt="" className="book__img" />
               </figure>
             </Link>
             <div className="book__details">
               <div className="book__title">
-                <Link to={`/books/${book.id}`} className="book__title--link">
+                <Link to={`/react-online-library/books/${book.id}`} className="book__title--link">
                   {book.title}
                 </Link>
               </div>

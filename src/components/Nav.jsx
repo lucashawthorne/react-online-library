@@ -20,12 +20,12 @@ const Nav = ({ numberOfItems }) => {
         </Link>
         <ul className="nav__links">
           <li className="nav__list">
-            <Link to="/" className="nav__link">
+            <Link to="/react-online-library/" className="nav__link">
               Home
             </Link>
           </li>
           <li className="nav__list">
-            <Link to="/books" className="nav__link">
+            <Link to="/react-online-library/books" className="nav__link">
               Books
             </Link>
           </li>
@@ -33,7 +33,7 @@ const Nav = ({ numberOfItems }) => {
             <FontAwesomeIcon icon="bars" />
           </button>
           <li className="nav__icon">
-            <Link to="/cart" className="nav__link">
+            <Link to="/react-online-library/cart" className="nav__link">
               <FontAwesomeIcon icon="shopping-cart" />
             </Link>
             {numberOfItems > 0 && (
@@ -47,17 +47,17 @@ const Nav = ({ numberOfItems }) => {
           </button>
           <ul className="menu__links">
             <li className="menu__list">
-              <Link to="/" className="menu__link">
+              <Link to="/react-online-library/" className="menu__link">
                 Home
               </Link>
             </li>
             <li className="menu__list">
-              <Link to="/books" className="menu__link">
+              <Link to="/react-online-library/books" className="menu__link">
                 Books
               </Link>
             </li>
             <li className="menu__list">
-              <Link to="/cart" className="menu__link">
+              <Link to="/react-online-library/cart" className="menu__link">
                 Cart
               </Link>
             </li>

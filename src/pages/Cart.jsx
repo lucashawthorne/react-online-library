@@ -77,7 +77,7 @@ const Cart = ({ cart, changeQuantity, removeItem }) => {
               <div className="cart__empty">
                 <img src={EmptyCart} alt="" className="cart__empty--img" />
                 <h2>You don't have any books in your cart!</h2>
-                <Link to="/books">
+                <Link to="/react-online-library/books">
                   <button className="btn">Browse Books</button>
                 </Link>
               </div>

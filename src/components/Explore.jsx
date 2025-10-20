@@ -9,7 +9,7 @@ const Explore = () => {
           <h2>
             Explore more <span className="purple">books</span>
           </h2>
-          <Link to="/books">
+          <Link to="/react-online-library/books">
           <button className="btn">Explore books</button></Link>
         </div>
       </div>

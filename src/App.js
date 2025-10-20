@@ -63,14 +63,14 @@ function App() {
       <div className="App">
         <Nav numberOfItems={numberOfItems()} />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/books" exact element={<Books books={books} />} />
+          <Route path="/react-online-library/" element={<Home />} />
+          <Route path="/react-online-library/books" exact element={<Books books={books} />} />
           <Route
-            path="/books/:id"
+            path="/react-online-library/books/:id"
             element={<BookInfo books={books} addToCart={addToCart} />}
           />
           <Route
-            path="/cart"
+            path="/react-online-library/cart"
             element={
               <Cart
                 books={books}
