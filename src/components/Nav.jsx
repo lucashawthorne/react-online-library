@@ -47,17 +47,17 @@ const Nav = ({ numberOfItems }) => {
           </button>
           <ul className="menu__links">
             <li className="menu__list">
-              <Link to="/react-online-library/" className="menu__link">
+              <Link to="/react-online-library/" className="menu__link" onClick={closeMenu}>
                 Home
               </Link>
             </li>
             <li className="menu__list">
-              <Link to="/react-online-library/books" className="menu__link">
+              <Link to="/react-online-library/books" className="menu__link" onClick={closeMenu}>
                 Books
               </Link>
             </li>
             <li className="menu__list">
-              <Link to="/react-online-library/cart" className="menu__link">
+              <Link to="/react-online-library/cart" className="menu__link" onClick={closeMenu}>
                 Cart
               </Link>
             </li>
